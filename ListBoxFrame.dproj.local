@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/22 20:19:46.000.513,=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/22 20:20:21.000.945,C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\Unit1.pas=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/22 20:20:21.000.945,C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\Unit1.fmx=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/10/22 20:20:43.000.551,C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\demoLaboratorio.dproj=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/10/22 22:39:57.000.299,C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\UntMain.fmx=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\Unit1.fmx</Transaction>
+    <Transaction>2021/10/22 22:39:57.000.299,C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\UntMain.pas=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\Unit1.pas</Transaction>
+    <Transaction>2021/10/23 03:53:37.000.412,C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\demoLaboratorio.dproj=C:\Users\NITRO 5\Documents\Embarcadero\Studio\Projects\demoLaboratorio\demoMenuResponsive.dproj</Transaction>
+    <Transaction>2021/10/29 16:47:25.000.219,=C:\Users\NITRO 5\Desktop\ListBoxFrame\ListBoxFrame\frameList.pas</Transaction>
+    <Transaction>2021/10/31 02:46:10.983,C:\Users\NITRO 5\Desktop\ListBoxFrame\ListBoxFrame\ListBoxFrame.dproj=C:\Users\NITRO 5\Desktop\ListBoxFrame\ListBoxFrame\demoMenuResponsive.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<POzuna iOSSimulator="iPhone5"/>
+		<NoProfile Android64="" Android="" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

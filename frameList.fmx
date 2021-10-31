@@ -1,0 +1,200 @@
+object frameListExample: TframeListExample
+  Size.Width = 376.000000000000000000
+  Size.Height = 167.000000000000000000
+  Size.PlatformDefault = False
+  object ListBoxItemStyle1: TRectangle
+    StyleName = 'ListBoxItemStyle1'
+    Align = Contents
+    Fill.Color = claWhite
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Size.Width = 366.000000000000000000
+    Size.Height = 162.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF7E7E7E
+    XRadius = 15.000000000000000000
+    YRadius = 15.000000000000000000
+    object lyCont: TLayout
+      StyleName = 'lyCont'
+      Align = Contents
+      Size.Width = 366.000000000000000000
+      Size.Height = 162.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object reCont: TRectangle
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Corners = [TopRight, BottomLeft]
+        Fill.Kind = None
+        HitTest = False
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 2.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 362.000000000000000000
+        Size.Height = 144.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 12.000000000000000000
+        YRadius = 12.000000000000000000
+        object lytAccessory: TLayout
+          Align = FitRight
+          Margins.Right = 4.000000000000000000
+          Position.X = 315.920349121093800000
+          Size.Width = 42.079650878906250000
+          Size.Height = 144.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object pthBtnAccess: TPath
+            Align = Center
+            Data.Path = {
+              1800000000000000A8C63941B4C8204101000000643BDB40CAA1A54002000000
+              3789D14045B69B40020000005EBAD1406CE78B4002000000B29DDB40A1458240
+              020000000681E5408616714002000000DF4FF540BFCA714002000000DBF9FE40
+              EFA78240010000004E62544189411841020000007D3F59414C371D4102000000
+              B81E5941D122254102000000273154419EEF2941010000005C8FFA4017D97E41
+              020000002DB2F540A69B804102000000295CEF404035814102000000560EE940
+              40358141020000005C8FE24040358141020000006210DC406991804102000000
+              022BD740D8A37E4102000000D578CD402EB27941020000005EBACD40C2CA7141
+              02000000508DD740DCF96C4101000000A8C63941B4C8204103000000A8C63941
+              B4C82041}
+            Fill.Color = xFF1D6E63
+            Size.Width = 12.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+          object speAccess: TSpeedButton
+            Align = Center
+            Size.Width = 10.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout1: TLayout
+          Margins.Left = 8.000000000000000000
+          Margins.Top = 21.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 97.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object lblSubTitu1: TLabel
+            StyleName = 'lblCaption'
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Size.Width = 257.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.VertAlign = Leading
+            Text = 'lblSubTitu1'
+            TabOrder = 0
+          end
+          object lblSubTitu2: TLabel
+            StyleName = 'lblSelengkapnya'
+            Align = Top
+            StyledSettings = [Family, Style]
+            HitTest = True
+            Position.Y = 25.000000000000000000
+            Size.Width = 257.000000000000000000
+            Size.Height = 24.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = xFF8E8E8E
+            Text = 'lblSubTitu2'
+            TabOrder = 2
+          end
+          object lblSubTitu3: TLabel
+            StyleName = 'lblSelengkapnya'
+            Align = Top
+            StyledSettings = [Family, Style]
+            HitTest = True
+            Position.Y = 49.000000000000000000
+            Size.Width = 257.000000000000000000
+            Size.Height = 24.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = xFF8E8E8E
+            Text = 'lblSubTitu3'
+            TabOrder = 1
+          end
+        end
+        object lytBtnMostrarVehiculo: TLayout
+          Align = Right
+          Margins.Right = 45.000000000000000000
+          Position.X = 268.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 144.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object pthVerVehiculo: TPath
+            Align = Center
+            ClipChildren = True
+            Data.Path = {
+              430000000000000000002041C74BDF400200000010580541C74BDF4002000000
+              C64BDF401058054102000000C64BDF400000204102000000C64BDF40F0A73A41
+              02000000105805411D5A504102000000000020411D5A504102000000F0A73A41
+              1D5A5041020000001D5A5041F0A73A41020000001D5A50410000204102000000
+              1D5A50411058054102000000F0A73A41C74BDF400200000000002041C74BDF40
+              0000000000002041A24544410200000000000C41A245444102000000BC74F740
+              0000344102000000BC74F7400000204102000000BC74F74000000C4102000000
+              E7FB0B41BC74F7400200000000002041BC74F7400200000019043441BC74F740
+              02000000A2454441E7FB0B4102000000A24544410000204102000000A2454441
+              000034410200000019043441A24544410200000000002041A245444100000000
+              C52093415EBA1B4101000000D12286410681014102000000BC746F4191EDC840
+              020000000C02494160E5A840020000000000204160E5A84002000000E8FBED40
+              60E5A840020000008716A14091EDC84002000000DBF94E400681014101000000
+              B6F3CD3F5EBA1B41020000009543BB3F7B141E41020000009543BB3F6CE72141
+              02000000B6F3CD3F8941244101000000DBF94E40E17A3E41020000008716A140
+              1E855B4102000000E8FBED4037896B41020000000000204137896B4102000000
+              0C02494137896B4102000000BC746F411E855B4102000000D1228641E17A3E41
+              01000000C52093418941244102000000BA4994416DE7214102000000BA499441
+              93181E4102000000C52093415EBA1B4100000000FED48141CFF7354102000000
+              022B694152B8504102000000A8C64541D5785F410200000000002041D5785F41
+              02000000B072F440D5785F4102000000FCA9AD4052B8504102000000AE477140
+              CFF7354101000000713D1A400000204101000000AE47714019040A4102000000
+              FCA9AD405C8FDE4002000000B072F440560EC1400200000000002041560EC140
+              02000000A8C64541560EC14002000000022B69415C8FDE4002000000FED48141
+              18040A410100000052B88C410000204101000000FED48141CFF7354103000000
+              FED48141CFF73541}
+            Fill.Color = xFF4BB0C0
+            Size.Width = 37.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+          object speMostrarVehiculo: TSpeedButton
+            Align = Center
+            Size.Width = 49.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+    end
+    object lblTituloPrincipal: TLabel
+      StyledSettings = [Family]
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Position.X = 13.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 252.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF1D6E63
+      Text = 'lblTituloPrincipal'
+      TabOrder = 1
+    end
+  end
+  object ShadowEffect1: TShadowEffect
+    Distance = 3.000000000000000000
+    Direction = 90.000000000000000000
+    Softness = 0.300000011920929000
+    Opacity = 0.500000000000000000
+    ShadowColor = claBlack
+  end
+end
